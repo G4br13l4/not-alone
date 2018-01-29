@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+/*body {
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Unica One', cursive;
+  color: white;
+}*/
+
+.backgroundImage {
+  background-image: url("../assets/images/gradient.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 1366px;
+  height: 768px;
+}
+
+.logo {
+  margin-left: 36.5%;
+  margin-top: 15%;
+}
+
+.fa-user, .fa-search, .fa-pencil {
+  text-align: center;
+  color: #A8314C;
+  margin-top: 15px;
+}
+
+.container-3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #848E95;
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #002847;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.home input{
+   height: 25px;
+   border-radius: 8px;
+}
+
+.home span{
+  position: absolute;
+  margin-left: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  color: #F70069;
+}
+
+nav {
+  height: 10vh;
+  background: #24284E;
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  border-radius: 8px;
+  border: solid 1px purple;
+}

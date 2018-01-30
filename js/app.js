@@ -41,6 +41,15 @@
   console.log(credential);
   // ...
 });
+
+var $title= $("#prueba");
+var database = firebase.database().ref().child("titulo");
+
+database.on("value", function(snapshot){
+  $title.text(snapshot.val());
+})
+
+}
 };
 
 

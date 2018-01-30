@@ -24,10 +24,10 @@
   // This gives you a Google Access Token. You can use it to access the Google API.
   var token = result.credential.accessToken;
   // The signed-in user info
-  console.log(token);
   var user = result.user;
-  console.log(user);
+  console.log(result);
 }).catch(function(error) {
+  console.log(error);
   // Handle Errors here.
   var errorCode = error.code;
   console.log(errorCode);
